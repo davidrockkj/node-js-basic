@@ -68,7 +68,7 @@ Imagine o ambiente a seguir:
             - **LibUV** - biblioteca feita em C++ que permite roda threads em background ()
 
         - *I/O não bloqueante*
-            - Imaginando que eu fiz uma requisição pra uma listagem de clientes. Pra fazer isso, é preciso preciso ir no banco de dados, fazer algumas coisas. Enquanto estou aguardando a resposta do banco de dados, da consulta, o sistema está parado (PHP é um dos exemplos de linguagem que bloqueiam).
+            - Imaginando que eu fiz uma requisição pra uma listagem de clientes. Pra fazer isso, é preciso ir no banco de dados, fazer algumas coisas. Enquanto estou aguardando a resposta do banco de dados, da consulta, o sistema está parado (PHP é um dos exemplos de linguagem que bloqueiam).
             - Demora milisegundos, mas é prejudicial quando se tem um servidor com muitas requisições
             - Isso o torna ideal para situações **Real time** e **Chats**
 
@@ -79,7 +79,7 @@ Imagine o ambiente a seguir:
 ## Frameworks
 - Básicos
     - ExpressJS
-        - Flexível (Sem arquitetura fechada; Se padrão fechado)
+        - Flexível (Sem arquitetura fechada; Sem padrão fechado)
         - Microserviços (Possível de fazer coisas mínimas)
 
 - Opinativos
